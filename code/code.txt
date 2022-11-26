@@ -1,0 +1,19 @@
+const btnClear = document.querySelector('#allClear');
+const btnNumbers = document.querySelectorAll('.btnNumber');
+const btnOperations = document.querySelectorAll('btnOperation'); 
+const btnDelete = document.querySelector('btnDelete');
+const btnEqual = document.querySelector('btnEquals');
+
+
+
+btnClear.addEventListener('click', function() {
+    console.log('hi');
+});
+
+btnDelete.addEventListener('click', function() {
+    console.log('h');
+});
+
+btnEqual.addEventListener('click', function() {
+    console.log('hi');
+});
